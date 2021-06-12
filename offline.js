@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1621854432,
+	"version": 1623505864,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -8,6 +8,7 @@
 		"images/tiledbackground.png",
 		"images/block-sheet0.png",
 		"images/bat-sheet0.png",
+		"images/bat-sheet1.png",
 		"images/julian-sheet0.png",
 		"images/julian-sheet1.png",
 		"images/bluebox-sheet0.png",
@@ -30,6 +31,9 @@
 		"images/flor.png",
 		"images/moveplatform-sheet0.png",
 		"images/title2.png",
+		"images/cagadad-sheet0.png",
+		"images/cagadad-sheet1.png",
+		"images/cagadad-sheet2.png",
 		"media/creditscreen.ogg",
 		"media/gamemusik.ogg",
 		"icon-16.png",

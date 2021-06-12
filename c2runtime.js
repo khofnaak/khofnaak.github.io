@@ -26157,16 +26157,16 @@ cr.behaviors.solid = function(runtime)
 	behaviorProto.acts = new Acts();
 }());
 cr.getObjectRefTable = function () { return [
-	cr.plugins_.Audio,
-	cr.plugins_.Button,
+	cr.plugins_.LocalStorage,
 	cr.plugins_.gamepad,
 	cr.plugins_.Keyboard,
-	cr.plugins_.LocalStorage,
 	cr.plugins_.Sprite,
 	cr.plugins_.TiledBg,
-	cr.plugins_.Spritefont2,
 	cr.plugins_.Text,
 	cr.plugins_.Touch,
+	cr.plugins_.Spritefont2,
+	cr.plugins_.Audio,
+	cr.plugins_.Button,
 	cr.behaviors.solid,
 	cr.behaviors.Platform,
 	cr.behaviors.scrollto,
@@ -26217,6 +26217,7 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Button.prototype.cnds.OnClicked,
 	cr.system_object.prototype.acts.NextPrevLayout,
 	cr.system_object.prototype.acts.SetVar,
-	cr.plugins_.Audio.prototype.acts.PlayByName
+	cr.plugins_.Audio.prototype.acts.PlayByName,
+	cr.plugins_.Keyboard.prototype.cnds.OnKey
 ];};
 
